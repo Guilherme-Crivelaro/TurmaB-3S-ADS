@@ -1,0 +1,51 @@
+body{
+   background-color: rgb(21, 14, 24);
+   color: white;
+}
+.navbar{
+    background-color: rgb(134, 1, 211);
+    width: 100%;
+    display: flex;
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+
+.navbar a{
+    padding: 10px;
+    color: white;    
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;   
+}
+.navbar li{
+    flex: 1;
+    text-align: center;
+}
+.navbar li:first-child {
+    text-align: justify;
+}
+.navbar li:last-child {
+    text-align: end;
+}
+
+.navbar a:hover{
+    color: rgb(71, 4, 134);
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid  rgb(134, 1, 211);
+
+}
+.center{
+    text-align: center;
+}
+
